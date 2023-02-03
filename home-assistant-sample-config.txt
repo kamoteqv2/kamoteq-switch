@@ -1,0 +1,26 @@
+# Example configuration.yaml entry
+switch: 
+  - platform: rest    
+    name: kitchen light
+    method: post
+    #timeout: 5
+    resource: http://192.168.100.210/deadbeeffeed/json/
+    body_on: '{"pinNum":7,"setMod":1}'
+    body_off: '{"pinNum":7,"setMod":0}'
+    is_on_template: "{{ value_json.setMod==1}}"
+    # verify_ssl: false
+    # scan_interval: 5
+    headers:
+      Content-Type: application/json 
+  - platform: rest    
+    name: bedroom light
+    method: post
+    # timeout: 60
+    resource: http://192.168.100.5/500291dd0ff7/json/
+    body_on: '{"pinNum":14,"setMod":1}'
+    body_off: '{"pinNum":14,"setMod":0}'
+    is_on_template: "{{ value_json.pin14==1 }}"
+    # verify_ssl: true
+    #scan_interval: 15
+    headers:
+      Content-Type: application/json 

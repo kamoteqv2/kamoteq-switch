@@ -1,0 +1,25 @@
+UID: http:url:ba1e7c9f04
+label: POST-SWITCH-NODEMCU
+thingTypeUID: http:url
+configuration:
+  authMode: BASIC
+  ignoreSSLErrors: true
+  headers:
+    - ""
+  baseURL: http://192.168.100.5/500291dd0ff7/json/
+  delay: 0
+  stateMethod: POST
+  refresh: 5
+  commandMethod: POST
+  contentType: application/json
+  timeout: 3000
+  bufferSize: 2048
+channels:
+  - id: sw14
+    channelTypeUID: http:switch
+    label: sw14
+    description: null
+    configuration:
+      onValue: '{"pinNum":14,"setMod":1}'
+      offValue: '{"pinNum":14,"setMod":0}'
+      stateContent: '{"pinNum":14,"getMod":1}'
