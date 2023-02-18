@@ -1,4 +1,4 @@
-# kamoteq-switch
+# KAMOTEQ-SWITCH
 For Personal Use only | Not for Commercial
 
 Tested on Arduino Uno | Esp8266 NodeMCU | Windows 8 and above
