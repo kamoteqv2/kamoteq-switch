@@ -40,14 +40,14 @@ Alternatively, if the Arduino serial monitor is not available, you can use the T
 
 #### Commands for erasing board information:  
 - {"erasepins":1}: Sets all board pin statuses to the default "off" or "zero". In addition to using the serial command, board information can also be erased by placing a jumper wire between GPIO 13 and ground while the board is powered on.
-- {"devicename":"mydevicename"}: Updates the device name to "mydevicename".
   
 #### Commands for controlling the board and updating settings:  
 - {"pinNum": [pinNum],"setMod": [1|0]}: Sets a specific pin on the microcontroller board to the desired state. Replace the first value with the pin number you want to set, and the second value with the mode you want to set it to (e.g. "HIGH", "LOW").
-
+- {"devicename":"mydevicename"}: Updates the device name to "mydevicename".
 #### Commands for getting board information:
-- {"info":1}:  
-- {"dht":1}: Retrieves values from the DHT sensor.  
+- {"dht":1}: Retrieves values from the DHT sensor. 
+- {"info":1}: Retrieves board values 
+- {"pinNum": [pinNum],"getMod": 1}: This command inspect a specific pin on the board to display current state.   
 
 ***Note:*** There are a maximum of 16 output pins that can be used on the firmware for Arduino: D5-D19. Refer to the KamoteQ-switch firmware repository for the latest available commands and their descriptions.
 
