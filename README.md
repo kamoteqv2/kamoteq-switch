@@ -39,12 +39,12 @@ Alternatively, if the Arduino serial monitor is not available, you can use the T
 ### Available serial commands for Arduino:
 
 #### Commands for erasing board information:  
-- {"set":"erasepins"}: Sets all board pin statuses to the default "off" or "zero". In addition to using the serial command, board information can also be erased by placing a jumper wire between GPIO 13 and ground while the board is powered on.
+- {"erasepins":1}: Sets all board pin statuses to the default "off" or "zero". In addition to using the serial command, board information can also be erased by placing a jumper wire between GPIO 13 and ground while the board is powered on.
 - {"devicename":"mydevicename"}: Updates the device name to "mydevicename".
 - {"dht":1}: Retrieves values from the DHT sensor.
   
 #### Commands for controlling the board and updating settings:  
-- {"pinNum":,"setMod":}: Sets a specific pin on the microcontroller board to the desired state. Replace the first value with the pin number you want to set, and the second value with the mode you want to set it to (e.g. "HIGH", "LOW").
+- {"pinNum": [pinNum],"setMod": [1|0]}: Sets a specific pin on the microcontroller board to the desired state. Replace the first value with the pin number you want to set, and the second value with the mode you want to set it to (e.g. "HIGH", "LOW").
 
 #### Commands for getting board information:
 - {"info":1}:   
@@ -55,7 +55,8 @@ Alternatively, if the Arduino serial monitor is not available, you can use the T
 
 #### Commands for controlling the board and updating settings:
 - {"reset":1}: This command resets the ESP8266 board.
-- {"pinNum":,"setMod":}: This command sets a specific pin on the board to the desired state. Replace with the pin number you want to set, and with the mode you want to set it to (e.g. "HIGH", "LOW").
+- {"pinNum": [pinNum],"setMod": [1|0]}: This command sets a specific pin on the board to the desired state. Replace with the pin number you want to set, and with the mode you want to set it to (e.g. "HIGH", "LOW").
+- {"pinNum": [pinNum],"getMod": 1}: This command inspect a specific pin on the board to display current state.
 - {"ssid":"mywifi","password":"mypass"}: Use this command to update the wifi settings with your network name and password.
 - {"devicename":"mydevicename"}: Use this command to update the device name.
 - {"dht":1}: Use this command to get the DHT sensor values.
