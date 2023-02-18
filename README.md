@@ -1,7 +1,7 @@
 # kamoteq-switch
 For Personal Use only | Not for Commercial
 
-Tested on Arduino Uno | Esp8266 NodeMCU
+Tested on Arduino Uno | Esp8266 NodeMCU | Windows 8 and above
 
 ## KamoteQ-switch Firmware Documentation
 The KamoteQ-switch firmware is a microcontroller board firmware that allows users to control the pins and perform various actions on the board using serial commands or the open source OpenHAB or Home Assistant smart home automation applications.
