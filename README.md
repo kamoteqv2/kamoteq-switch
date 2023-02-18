@@ -7,6 +7,9 @@ Tested on Arduino Uno | Esp8266 NodeMCU
 The KamoteQ-switch firmware is a microcontroller board firmware that allows users to control the pins and perform various actions on the board using serial commands or the open source OpenHAB or Home Assistant smart home automation applications.
 
 ### How to use the KamoteQ-switch firmware:
+Before using the KamoteQ-switch firmware, you need to connect the microcontroller board to your computer or laptop. Open the device manager to check the COM port number. If the device is not properly detected or the device driver for the board is missing, you can find the driver in the driver folder in the repository.
+
+Once you have confirmed that the device is properly detected and the driver is installed, follow these steps:
 
 1. Flash the firmware onto the board using the appropriate flasher software (XLoader for Arduino Uno, NodeMCU flasher for ESP8266).
 2. Connect the board to your desired circuit or device. <click here for complete instruction>
