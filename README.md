@@ -15,7 +15,7 @@ Once you have confirmed that the device is properly detected and the driver is i
 2. Connect the board to your desired circuit or device. <click here for complete instruction>
 
 ## Integration with OpenHAB or Home Assistant:
-### To use the KamoteQ-switch firmware with OpenHAB or Home Assistant, follow these steps:****
+### To use the KamoteQ-switch firmware with OpenHAB or Home Assistant, follow these steps:
 
 1. Install OpenHAB or Home Assistant on your desired device.
 2. Add the KamoteQ-switch firmware as a new thing in your smart home automation application.
