@@ -14,14 +14,14 @@ Connect the board to your desired circuit or device.
 
 Alternatively, you can use the KamoteQ-switch firmware with OpenHAB or Home Assistant to control the board using their user interface.
 
-##Integration with OpenHAB or Home Assistant:
+## Integration with OpenHAB or Home Assistant:
 ### To use the KamoteQ-switch firmware with OpenHAB or Home Assistant, follow these steps:****
 
 1. Install OpenHAB or Home Assistant on your desired device.
 2. Add the KamoteQ-switch firmware as a new thing in your smart home automation application.
 3. Once the new board is added as a thing, you can control the pins and perform various actions on the board using the OpenHAB or Home Assistant user interface.
 
-##Integration with Serial Commands:
+## Integration with Serial Commands:
 ### To use the KamoteQ-switch firmware with serial commands, follow these steps:
 
 1. Connect the board to your desired circuit or device.
@@ -56,8 +56,7 @@ Alternatively, you can use the KamoteQ-switch firmware with OpenHAB or Home Assi
 - {"reset":1}: This command resets the ESP8266 board.
 - {"pinNum":<pinNumber>,"setMod":<pinMode>}: This command sets a specific pin on the microcontroller board to the desired state. Replace <pinNumber> with the pin number you want to set, and <pinMode> with the mode you want to set it to (e.g. "HIGH", "LOW").
 
-***Note:*** There are a maximum of 5 output pins that can be used on the firmware for ESP8266: GPIO 4, 5, 12, 13, 14. Refer to the
- 
+***Note:*** There are a maximum of 5 output pins that can be used on the firmware for ESP8266: GPIO 4, 5, 12, 13, 14. Refer to the KamoteQ-switch firmware repository for the latest available commands and their descriptions.
   
 -------
 
