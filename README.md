@@ -26,16 +26,22 @@ Integration with OpenHAB or Home Assistant:
 
 ***Available serial commands for Arduino:***
 
-{"set":"erasepins"}: This command sets the board pin status all to default off or zero.
-{"pinNum":<pinNumber>,"setMod":<pinMode>}: This command sets a specific pin on the microcontroller board to the desired state. Replace <pinNumber> with the pin number you want to set, and <pinMode> with the mode you want to set it to (e.g. "HIGH", "LOW").
+- {"set":"erasepins"}: This command sets the board pin status all to default off or zero.
+- {"pinNum":<pinNumber>,"setMod":<pinMode>}: This command sets a specific pin on the microcontroller board to the desired state. Replace <pinNumber> with the pin number you want to set, and <pinMode> with the mode you want to set it to (e.g. "HIGH", "LOW").
 
 ***Note***: There are a maximum of 16 output pins that can be used on the firmware for Arduino: D5-D19.  Refer to the KamoteQ-switch firmware repository for the latest available commands and their descriptions. 
 
 ***Available serial commands for ESP8266:***
 
-- {"set":"erase"}: This command erases the board pins and wifi password.
-- {"set":"erasewifi"}: This command erases the wifi password.
-- {"set":"reset"}: This command resets the ESP8266 board.
+- {"erase":1}  erase board information wifi and pins
+- {"erasewifi":1} erase wifi credential
+- {"erasepins":1} set pins to default 0
+- {"ssid":"mywifi","password":"mypass"} update the wifi credential
+- {"devicename":"mydevicename"} update the device name
+- {"dht":1} get the dht sensor values
+- {"erase":1}: This command erases the board pins and wifi password.
+- {"erasewifi":1}: This command erases the wifi password.
+- {"reset":1}: This command resets the ESP8266 board.
 - {"pinNum":<pinNumber>,"setMod":<pinMode>}: This command sets a specific pin on the microcontroller board to the desired state. Replace <pinNumber> with the pin number you want to set, and <pinMode> with the mode you want to set it to (e.g. "HIGH", "LOW").
  
 ***Note***: There are a maximum of 5 output pins that can be used on the firmware for ESP8266: GPIO 4, 5, 12, 13, 14. Refer to the KamoteQ-switch firmware repository for the latest available commands and their descriptions.
