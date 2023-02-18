@@ -23,7 +23,7 @@ The KamoteQ-switch firmware is a microcontroller board firmware that allows user
 - {"set":"erasewifi"}: This command erases the wifi password.
 - {"set":"erasepins"}: This command sets the board pin status all to default off or zero.
 - {"set":"reset"}: This command resets the ESP8266 board.
-- {"pinNum":<pinNumber>,"setMod":<pinMode>}: This command sets a specific pin on the microcontroller board to the desired state. Replace <pinNumber> with the pin number you want to set, and <pinMode> with the mode you want to set it to (e.g. "HIGH", "LOW").
+- {"pinNum":pinNumber,"setMod":pinMode}: This command sets a specific pin on the microcontroller board to the desired state. Replace <pinNumber> with the pin number you want to set, and <pinMode> with the mode you want to set it to (e.g. "HIGH", "LOW").
  
 ***Note***: Refer to the KamoteQ-switch firmware repository for the latest available commands and their descriptions.
 
