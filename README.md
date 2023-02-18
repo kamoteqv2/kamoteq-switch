@@ -33,11 +33,10 @@ The KamoteQ-switch firmware is a microcontroller board firmware that allows user
 
 ### Available serial commands for Arduino:
 
-- {"set":"erasepins"}: This command sets the board pin status all to default off or zero.
-- {"devicename":"mydevicename"} update the device name
-- {"dht":1} get the dht sensor values
-- {"pinNum":<pinNumber>,"setMod":<pinMode>}: This command sets a specific pin on the microcontroller board to the desired state. Replace <pinNumber> with the pin number you want to set, and <pinMode> with the mode you want to set it to (e.g. "HIGH", "LOW").
-
+- {"set":"erasepins"}: Sets all board pin statuses to the default "off" or "zero".
+- {"devicename":"mydevicename"}: Updates the device name to "mydevicename".
+- {"dht":1}: Retrieves values from the DHT sensor.
+- {"pinNum":,"setMod":}: Sets a specific pin on the microcontroller board to the desired state. Replace the first value with the pin number you want to set, and the second value with the mode you want to set it to (e.g. "HIGH", "LOW").
 ***Note:*** There are a maximum of 16 output pins that can be used on the firmware for Arduino: D5-D19. Refer to the KamoteQ-switch firmware repository for the latest available commands and their descriptions.
 
 ### Available serial commands for ESP8266:
