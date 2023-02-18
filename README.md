@@ -38,10 +38,16 @@ Alternatively, if the Arduino serial monitor is not available, you can use the T
 
 ### Available serial commands for Arduino:
 
+#### Commands for erasing board information:  
 - {"set":"erasepins"}: Sets all board pin statuses to the default "off" or "zero". In addition to using the serial command, board information can also be erased by placing a jumper wire between GPIO 13 and ground while the board is powered on. This will erase the board's pin and wifi settings.
 - {"devicename":"mydevicename"}: Updates the device name to "mydevicename".
 - {"dht":1}: Retrieves values from the DHT sensor.
+  
+#### Commands for controlling the board and updating settings:  
 - {"pinNum":,"setMod":}: Sets a specific pin on the microcontroller board to the desired state. Replace the first value with the pin number you want to set, and the second value with the mode you want to set it to (e.g. "HIGH", "LOW").
+
+#### Commands for getting board information:
+- {"info":1}:   
 
 ***Note:*** There are a maximum of 16 output pins that can be used on the firmware for Arduino: D5-D19. Refer to the KamoteQ-switch firmware repository for the latest available commands and their descriptions.
 
@@ -60,6 +66,8 @@ Alternatively, if the Arduino serial monitor is not available, you can use the T
 - {"erasewifi":1}: This command erases the wifi settings.
 - {"erasepins":1}: This command sets all pins to default 0.
 
+#### Commands for getting board information:
+- {"info":1}:   
 ***Note:*** There are a maximum of 5 output pins that can be used on the firmware for ESP8266: GPIO 4, 5, 12, 13, 14. Refer to the KamoteQ-switch firmware repository for the latest available commands and their descriptions.
   
 -------
