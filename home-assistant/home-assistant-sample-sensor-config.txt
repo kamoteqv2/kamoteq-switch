@@ -1,21 +1,42 @@
-# Example configuration.yaml entry
 sensor:
+  # - platform: rest
+  #   resource: http://192.168.100.2/500291dd0ff7/json/dht/
+  #   name: "My Sensor"
+  #   value_template: "{{ value_json.temp }},{{ value_json.hum }}"
+  #   unit_of_measurement: "°C,%"
+  #   scan_interval: 5
+  #   timeout: 15
+  #   headers:
+  #     Content-Type: application/json  
   - platform: rest
     resource: http://192.168.100.2/500291dd0ff7/json/dht/
     name: temperature
-    value_template: "{{ value_json.temp | float }}"
+    value_template: "{{ value_json.temp | round(2) }}"
     unit_of_measurement: "°C"
-    scan_interval: 5
-    timeout: 15
+    scan_interval: 30
+    timeout: 60
     headers:
       Content-Type: application/json  
-
+    # Add the following debug statement to print the JSON response
+    json_attributes:
+      - dhtpin
+      - dhttype
+      - temp
+      - hum
+      - status      
   - platform: rest
     resource: http://192.168.100.2/500291dd0ff7/json/dht/
     name: humidity
-    value_template: "{{ value_json.hum | float }}"
+    value_template: "{{ value_json.hum | round(2) }}"
     unit_of_measurement: "%"
-    scan_interval: 5
-    timeout: 15
+    scan_interval: 15
+    timeout: 60
     headers:
-      Content-Type: application/json
+      Content-Type: application/json  
+    # Add the following debug statement to print the JSON response
+    json_attributes:
+      - dhtpin
+      - dhttype
+      - temp
+      - hum
+      - status 
