@@ -33,8 +33,8 @@ Once you have confirmed that the device is properly detected and the driver is i
   
 Alternatively, if the Arduino serial monitor is not available, you can use the Termite serial monitor application, which is included in the repository. Once you have installed and run Termite, simply select the correct COM port number and set the baud rate to 115200. This will allow you to send and receive serial commands to the KamoteQ-switch firmware.
 
-***Note:*** Refer to the available serial commands section for a list of commands you can use to control the board with serial commands.
 
+***Note:*** Refer to the available serial commands section for a list of commands you can use to control the board with serial commands.
 
 ### Available serial commands for Arduino:
 
@@ -42,6 +42,7 @@ Alternatively, if the Arduino serial monitor is not available, you can use the T
 - {"devicename":"mydevicename"}: Updates the device name to "mydevicename".
 - {"dht":1}: Retrieves values from the DHT sensor.
 - {"pinNum":,"setMod":}: Sets a specific pin on the microcontroller board to the desired state. Replace the first value with the pin number you want to set, and the second value with the mode you want to set it to (e.g. "HIGH", "LOW").
+
 ***Note:*** There are a maximum of 16 output pins that can be used on the firmware for Arduino: D5-D19. Refer to the KamoteQ-switch firmware repository for the latest available commands and their descriptions.
 
 ### Available serial commands for ESP8266:
