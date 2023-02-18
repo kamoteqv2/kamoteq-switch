@@ -38,7 +38,10 @@ Integration with OpenHAB or Home Assistant:
 - {"set":"reset"}: This command resets the ESP8266 board.
 - {"pinNum":<pinNumber>,"setMod":<pinMode>}: This command sets a specific pin on the microcontroller board to the desired state. Replace <pinNumber> with the pin number you want to set, and <pinMode> with the mode you want to set it to (e.g. "HIGH", "LOW").
  
-***Note:*** There are a maximum of 5 output pins that can be used on the firmware for ESP8266: GPIO 4, 5, 12, 13, 14. Refer to the KamoteQ-switch firmware repository for the latest available commands and their descriptions.
+***Note***: There are a maximum of 5 output pins that can be used on the firmware for ESP8266: GPIO 4, 5, 12, 13, 14. Refer to the KamoteQ-switch firmware repository for the latest available commands and their descriptions.
+ 
+ 
+ 
 -------
 
 ***Credit:*** This application was developed by KMQ Tech TV (https://www.youtube.com/@kamoteqv2), a Youtube channel dedicated to teaching and promoting Free DIY technology.
