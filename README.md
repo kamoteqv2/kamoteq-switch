@@ -42,16 +42,18 @@ The KamoteQ-switch firmware is a microcontroller board firmware that allows user
 
 ### Available serial commands for ESP8266:
 
-- {"erase":1} erase board information wifi and pins
-- {"erasewifi":1} erase wifi credential
-- {"erasepins":1} set pins to default 0
-- {"ssid":"mywifi","password":"mypass"} update the wifi credential
-- {"devicename":"mydevicename"} update the device name
-- {"dht":1} get the dht sensor values
-- {"erase":1}: This command erases the board pins and wifi password.
-- {"erasewifi":1}: This command erases the wifi password.
+#### Commands for controlling the board and updating settings:
+- {"erase":1}: This command erases the board's pin and wifi settings.
+- {"erasewifi":1}: This command erases the wifi settings.
 - {"reset":1}: This command resets the ESP8266 board.
-- {"pinNum":<pinNumber>,"setMod":<pinMode>}: This command sets a specific pin on the microcontroller board to the desired state. Replace <pinNumber> with the pin number you want to set, and <pinMode> with the mode you want to set it to (e.g. "HIGH", "LOW").
+- {"pinNum":,"setMod":}: This command sets a specific pin on the board to the desired state. Replace with the pin number you want to set, and with the mode you want to set it to (e.g. "HIGH", "LOW").
+- {"ssid":"mywifi","password":"mypass"}: Use this command to update the wifi settings with your network name and password.
+- {"devicename":"mydevicename"}: Use this command to update the device name.
+- {"dht":1}: Use this command to get the DHT sensor values.
+#### Commands for erasing board information:
+- {"erase":1}: This command erases the board's pin and wifi settings.
+- {"erasewifi":1}: This command erases the wifi settings.
+- {"erasepins":1}: This command sets all pins to default 0.
 
 ***Note:*** There are a maximum of 5 output pins that can be used on the firmware for ESP8266: GPIO 4, 5, 12, 13, 14. Refer to the KamoteQ-switch firmware repository for the latest available commands and their descriptions.
   
