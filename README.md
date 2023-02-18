@@ -48,7 +48,7 @@ Alternatively, if the Arduino serial monitor is not available, you can use the T
 ### Available serial commands for ESP8266:
 
 #### Commands for controlling the board and updating settings:
-- {"erase":1}: This command erases the board's pin and wifi settings.
+- {"erase":1}: This command erases the board's pin and wifi settings. In addition to using the serial command, board information can also be erased by placing a jumper wire between GPIO 13 and ground while the board is powered on. This will erase the board's pin and wifi settings.
 - {"erasewifi":1}: This command erases the wifi settings.
 - {"reset":1}: This command resets the ESP8266 board.
 - {"pinNum":,"setMod":}: This command sets a specific pin on the board to the desired state. Replace with the pin number you want to set, and with the mode you want to set it to (e.g. "HIGH", "LOW").
