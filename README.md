@@ -9,14 +9,14 @@ The KamoteQ-switch firmware is a microcontroller board firmware that allows user
 ### How to use the KamoteQ-switch firmware:
 
 1. Flash the firmware onto the board using the appropriate flasher software (XLoader for Arduino Uno, NodeMCU flasher for ESP8266).
-2. Connect the board to your desired circuit or device.
+2. Connect the board to your desired circuit or device. <click here for complete instruction>
 
 ## Integration with OpenHAB or Home Assistant:
 ### To use the KamoteQ-switch firmware with OpenHAB or Home Assistant, follow these steps:****
 
 1. Install OpenHAB or Home Assistant on your desired device.
 2. Add the KamoteQ-switch firmware as a new thing in your smart home automation application.
-3. Once the new board is added as a thing, you can control the pins and perform various actions on the board using the OpenHAB or Home Assistant user interface.
+3. Once the new board is added as a thing, you can control the pins and perform various actions on the board using the OpenHAB or Home Assistant user interface. <click here for complete instruction>
 
 ## Integration with Serial Commands:
 ### To use the KamoteQ-switch firmware with serial commands, follow these steps:
@@ -27,6 +27,8 @@ The KamoteQ-switch firmware is a microcontroller board firmware that allows user
 4. Set the baud rate to 115200.
 5. Type in the desired serial commands for the KamoteQ-switch firmware in the Serial Monitor input box and press "Enter".
 6. The firmware will receive the command and perform the necessary actions.
+  
+Alternatively, if the Arduino serial monitor is not available, you can use the Termite serial monitor application, which is included in the repository. Once you have installed and run Termite, simply select the correct COM port number and set the baud rate to 115200. This will allow you to send and receive serial commands to the KamoteQ-switch firmware.
 
 ***Note:*** Refer to the available serial commands section for a list of commands you can use to control the board with serial commands.
 
