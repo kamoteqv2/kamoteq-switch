@@ -38,7 +38,7 @@ Alternatively, if the Arduino serial monitor is not available, you can use the T
 
 ### Available serial commands for Arduino:
 
-- {"set":"erasepins"}: Sets all board pin statuses to the default "off" or "zero".
+- {"set":"erasepins"}: Sets all board pin statuses to the default "off" or "zero". In addition to using the serial command, board information can also be erased by placing a jumper wire between GPIO 13 and ground while the board is powered on. This will erase the board's pin and wifi settings.
 - {"devicename":"mydevicename"}: Updates the device name to "mydevicename".
 - {"dht":1}: Retrieves values from the DHT sensor.
 - {"pinNum":,"setMod":}: Sets a specific pin on the microcontroller board to the desired state. Replace the first value with the pin number you want to set, and the second value with the mode you want to set it to (e.g. "HIGH", "LOW").
