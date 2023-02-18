@@ -68,6 +68,7 @@ Alternatively, if the Arduino serial monitor is not available, you can use the T
 
 #### Commands for getting board information:
 - {"info":1}:   
+  
 ***Note:*** There are a maximum of 5 output pins that can be used on the firmware for ESP8266: GPIO 4, 5, 12, 13, 14. Refer to the KamoteQ-switch firmware repository for the latest available commands and their descriptions.
   
 -------
