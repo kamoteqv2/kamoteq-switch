@@ -73,7 +73,7 @@ Alternatively, if the Arduino serial monitor is not available, you can use the T
   
 
 ## New Feature: Porttyapi.exe
-A new application called ***Porttyapi.exe*** has been added to the KMQ device. This application enables users to use the ESP8266 or Arduino Uno even when Wi-Fi is not available or Ethernet Shield. Instead, it uses the serial port to connect to the device.
+A new application called ***Porttyapi.exe*** has been added to the KMQ device. This application enables users to use the ESP8266 or Arduino Uno even when Wi-Fi or Ethernet Shield is not available. Instead, it uses the serial port to connect to the device.
 
 With ***Porttyapi.exe***, you can create things and items with your favorite ESP8266 or Arduino without connecting it to a Wi-Fi network or a Wi-Fi connection in OpenHAB or Home Assistant. This allows for more flexibility in using the KMQ device and expands the range of possible applications.
 
