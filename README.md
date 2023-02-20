@@ -46,7 +46,7 @@ Alternatively, if the Arduino serial monitor is not available, you can use the T
 - {"devicename":"mydevicename"}: Updates the device name to "mydevicename".
 #### Commands for getting board information:
 - {"dht":1}: Retrieves values from the DHT sensor. 
-- {"info":1}: Retrieves board values 
+- {"nfo":1}: Retrieves board values 
 - {"pinNum": [pinNum],"getMod": 1}: This command inspect a specific pin on the board to display current state.   
 
 ***Note:*** There are a maximum of 16 output pins that can be used on the firmware for Arduino: D5-D19. Refer to the KamoteQ-switch firmware repository for the latest available commands and their descriptions.
@@ -54,7 +54,7 @@ Alternatively, if the Arduino serial monitor is not available, you can use the T
 ### Available serial commands for ESP8266:
 
 #### Commands for controlling the board and updating settings:
-- {"reset":1}: This command resets the ESP8266 board.
+- {"rst":1}: This command resets the ESP8266 board.
 - {"pinNum": [pinNum],"setMod": [1|0]}: This command sets a specific pin on the board to the desired state. Replace with the pin number you want to set, and with the mode you want to set it to (e.g. "HIGH", "LOW").
 - {"ssid":"mywifi","password":"mypass"}: Use this command to update the wifi settings with your network name and password.
 - {"devicename":"mydevicename"}: Use this command to update the device name.
@@ -65,7 +65,7 @@ Alternatively, if the Arduino serial monitor is not available, you can use the T
 - {"erasepins":1}: This command sets all pins to default 0.
 
 #### Commands for getting board information:
-- {"info":1}:  
+- {"nfo":1}:  
 - {"dht":1}: Use this command to get the DHT sensor values.  
 - {"pinNum": [pinNum],"getMod": 1}: This command inspect a specific pin on the board to display current state.  
   
