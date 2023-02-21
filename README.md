@@ -1,3 +1,18 @@
+**ESP8266 NodeMCU OpenHAB integration**
+![alt text](https://github.com/kamoteqv2/kamoteq-repo/blob/main/main.jpg?raw=true)
+![alt text](https://github.com/kamoteqv2/kamoteq-repo/blob/main/ohlogo.jpg?raw=true)
+![alt text](https://github.com/kamoteqv2/kamoteq-repo/blob/main/lab-setup.jpg?raw=true)
+
+
+***OpenHAB + KMQ Firmware Integration (TAGALOG)***
+[<img src="https://i.ytimg.com/vi/v=K-rQyatfA2I/maxresdefault.jpg" width="100%">]([https://www.youtube.com/watch?v=K-rQyatfA2I](https://www.youtube.com/watch?v=4bzahDY59fA) "OpenHAB + KMQ Firmware Integration (TAGALOG)")
+
+
+***OpenHAB + KMQ Firmware Integration (ENGLISH)***
+[<img src="https://i.ytimg.com/vi/9r0OxVhVjec/maxresdefault.jpg" width="100%">](https://www.youtube.com/watch?v=9r0OxVhVjec "OpenHAB + KMQ Firmware Integration (ENGLISH)")
+
+
+
 # KAMOTEQ-SWITCH
 For Personal Use only | Not for Commercial
 
