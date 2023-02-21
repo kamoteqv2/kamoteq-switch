@@ -44,6 +44,7 @@ Alternatively, if the Arduino serial monitor is not available, you can use the T
 #### Commands for controlling the board and updating settings:  
 - {"pinNum": [pinNum],"setMod": [1|0]}: Sets a specific pin on the microcontroller board to the desired state. Replace the first value with the pin number you want to set, and the second value with the mode you want to set it to (e.g. "HIGH", "LOW").
 - {"devicename":"mydevicename"}: Updates the device name to "mydevicename".
+- {"rst":1}: This command resets the board.
 #### Commands for getting board information:
 - {"dht":1}: Retrieves values from the DHT sensor. 
 - {"nfo":1}: Retrieves board values 
