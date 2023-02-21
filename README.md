@@ -11,10 +11,10 @@ Tested on Arduino Uno | Esp8266 NodeMCU | Windows 8 and above
 [<img src="https://i.ytimg.com/vi/4bzahDY59fA/maxresdefault.jpg" width="100%">](https://www.youtube.com/watch?v=4bzahDY59fA "OpenHAB + KMQ Firmware Integration (TAGALOG)")
 
 ## KamoteQ-switch Firmware Documentation
-The KamoteQ-switch firmware is a microcontroller board firmware that allows users to control the pins and perform various actions on the board using serial commands or the open source OpenHAB or Home Assistant smart home automation applications.
+The Kamote-Q or KMQ firmware is a microcontroller board firmware that allows users to control the microcontroller output pins or read DHT sensor data from OpenHAB or Home Assistant applications.
 
 ### How to use the KamoteQ-switch firmware:
-Before using the KamoteQ-switch firmware, you need to connect the microcontroller board to your computer or laptop. Open the device manager to check the COM port number. If the device is not properly detected or the device driver for the board is missing, you can find the driver in the driver folder in the repository.
+Before using the KamoteQ-switch firmware, you need to connect the microcontroller board to your computer or laptop. Open the device manager to check the COM port number. If the device is not correctly identified or the board's device driver is missing, you can install the driver by looking in the repository's driver folder.
 
 Once you have confirmed that the device is properly detected and the driver is installed, follow these steps:
 
