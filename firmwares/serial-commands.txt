@@ -4,7 +4,7 @@
 {"dht":1}
 {"nfo":1}
 {"porttYapi":1}
-{"ssid":"kraken","password":"Aa123456"}
+{"ssid":"mywifiSSID","password":"mypassword"}
 {"devicename":"mydevicename"}
 {"erasepins":1}
 {"erasewifi":1}
