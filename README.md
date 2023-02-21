@@ -1,4 +1,7 @@
-# ESP8266 NodeMCU OpenHAB integration
+# KAMOTEQ-SWITCH
+For Personal Use only | Not for Commercial
+
+Tested on Arduino Uno | Esp8266 NodeMCU | Windows 8 and above
 ![alt text](https://github.com/kamoteqv2/kamoteq-repo/blob/main/main.jpg?raw=true)
 ![alt text](https://github.com/kamoteqv2/kamoteq-repo/blob/main/ohlogo.jpg?raw=true)
 ![alt text](https://github.com/kamoteqv2/kamoteq-repo/blob/main/lab-setup.jpg?raw=true)
@@ -6,13 +9,6 @@
 
 ***OpenHAB + KMQ Firmware Integration | YOUTUBE VIDEO (TAGALOG)***
 [<img src="https://i.ytimg.com/vi/4bzahDY59fA/maxresdefault.jpg" width="100%">](https://www.youtube.com/watch?v=4bzahDY59fA "OpenHAB + KMQ Firmware Integration (TAGALOG)")
-
-
-
-# KAMOTEQ-SWITCH
-For Personal Use only | Not for Commercial
-
-Tested on Arduino Uno | Esp8266 NodeMCU | Windows 8 and above
 
 ## KamoteQ-switch Firmware Documentation
 The KamoteQ-switch firmware is a microcontroller board firmware that allows users to control the pins and perform various actions on the board using serial commands or the open source OpenHAB or Home Assistant smart home automation applications.
