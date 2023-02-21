@@ -4,12 +4,9 @@
 ![alt text](https://github.com/kamoteqv2/kamoteq-repo/blob/main/lab-setup.jpg?raw=true)
 
 
-***OpenHAB + KMQ Firmware Integration (TAGALOG)***
+***OpenHAB + KMQ Firmware Integration | YOUTUBE VIDEO (TAGALOG)***
 [<img src="https://i.ytimg.com/vi/4bzahDY59fA/maxresdefault.jpg" width="100%">](https://www.youtube.com/watch?v=4bzahDY59fA "OpenHAB + KMQ Firmware Integration (TAGALOG)")
 
-
-***OpenHAB + KMQ Firmware Integration (ENGLISH)***
-[<img src="#" width="100%">](# "OpenHAB + KMQ Firmware Integration (ENGLISH)")
 
 
 # KAMOTEQ-SWITCH
