@@ -5,12 +5,11 @@
 
 
 ***OpenHAB + KMQ Firmware Integration (TAGALOG)***
-[<img src="https://i.ytimg.com/vi/v=K-rQyatfA2I/maxresdefault.jpg" width="100%">]([https://www.youtube.com/watch?v=K-rQyatfA2I](https://www.youtube.com/watch?v=4bzahDY59fA) "OpenHAB + KMQ Firmware Integration (TAGALOG)")
+[<img src="https://i.ytimg.com/vi/4bzahDY59fA/maxresdefault.jpg" width="100%">](https://www.youtube.com/watch?v=4bzahDY59fA "OpenHAB + KMQ Firmware Integration (TAGALOG)")
 
 
 ***OpenHAB + KMQ Firmware Integration (ENGLISH)***
-[<img src="https://i.ytimg.com/vi/9r0OxVhVjec/maxresdefault.jpg" width="100%">](https://www.youtube.com/watch?v=9r0OxVhVjec "OpenHAB + KMQ Firmware Integration (ENGLISH)")
-
+[<img src="#" width="100%">](# "OpenHAB + KMQ Firmware Integration (ENGLISH)")
 
 
 # KAMOTEQ-SWITCH
