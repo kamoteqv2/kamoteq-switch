@@ -71,6 +71,16 @@ Alternatively, if the Arduino serial monitor is not available, you can use the T
   
 ***Note:*** There are a maximum of 4 output pins that can be used on the firmware for ESP8266: GPIO 4, 5, 12, 14. Refer to the KamoteQ-switch firmware repository for the latest available commands and their descriptions.
   
--------
+
+## New Feature: Porttyapi.exe
+A new application called ***Porttyapi.exe*** has been added to the KMQ device. This application enables users to use the ESP8266 or Arduino Uno even when Wi-Fi or Ethernet Shield is not available. Instead, it uses the serial port to connect to the device.
+
+With ***Porttyapi.exe***, you can create things and items with your favorite ESP8266 or Arduino without connecting it to a Wi-Fi network or a Wi-Fi connection in OpenHAB or Home Assistant. This allows for more flexibility in using the KMQ device and expands the range of possible applications.
+
+To use ***Porttyapi.exe***, simply connect your ESP8266 or Arduino Uno to the KMQ device using a serial cable. Then, run the Porttyapi.exe application and follow the on-screen instructions to set up your device. Once set up, you can use your ESP8266 or Arduino Uno with the KMQ device even when Wi-Fi is not available.
+
+Please note that the ***Porttyapi.exe*** application is only compatible with ESP8266 and Arduino Uno devices. If you are using a different device, you will need to connect it to Wi-Fi in order to use it with the KMQ device. https://github.com/kamoteqv2/porttYapi
+
+-------  
 
 ***Credit:*** This application was developed by KMQ Tech TV (https://www.youtube.com/@kamoteqv2), a Youtube channel dedicated to teaching and promoting Free DIY technology.
