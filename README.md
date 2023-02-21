@@ -89,6 +89,6 @@ To use ***Porttyapi.exe***, simply connect your ESP8266 or Arduino Uno to the KM
 
 Please note that the ***Porttyapi.exe*** application is only compatible with ESP8266 and Arduino Uno devices. If you are using a different device, you will need to connect it to Wi-Fi in order to use it with the KMQ device. https://github.com/kamoteqv2/porttYapi
 
--------  
+## Credit:
 
-***Credit:*** This application was developed by KMQ Tech TV (https://www.youtube.com/@kamoteqv2), a Youtube channel dedicated to teaching and promoting Free DIY technology.
+This application was developed by KMQ Tech TV (https://www.youtube.com/@kamoteqv2), a Youtube channel dedicated to teaching and promoting Free DIY technology.
