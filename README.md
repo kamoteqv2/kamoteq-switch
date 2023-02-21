@@ -14,7 +14,7 @@ Tested on Arduino Uno | Esp8266 NodeMCU | Windows 8 and above
 The Kamote-Q or KMQ firmware is a microcontroller board firmware that allows users to control the microcontroller output pins or read DHT sensor data from OpenHAB or Home Assistant applications.
 
 ### How to use the KamoteQ-switch firmware:
-Before using the KamoteQ-switch firmware, you need to connect the microcontroller board to your computer or laptop. Open the device manager to check the COM port number. If the device is not correctly identified or the board's device driver is missing, you can install the driver by looking in the repository's driver folder.
+You must connect the microcontroller board to your PC or laptop before flashing the esp8266 nodeMCU or Arduino uno with Kamote-Q firmware. To verify the COM port number, use the device manager. You can install the driver by browsing in the repository's driver folder if the device is not correctly identified or the board's device driver is absent.
 
 Once you have confirmed that the device is properly detected and the driver is installed, follow these steps:
 
